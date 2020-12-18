@@ -1,0 +1,49 @@
+[ {
+  "@class" : "sample.Logic.CapDeposit",
+  "id" : 1,
+  "client" : "Иванов И.И",
+  "amount" : 10000,
+  "time" : "month1",
+  "percent" : 8.5,
+  "cap" : true,
+  "income" : 70.83333333333394,
+  "months" : 1
+}, {
+  "@class" : "sample.Logic.CapDeposit",
+  "id" : 2,
+  "client" : "Петров П.П",
+  "amount" : 50000,
+  "time" : "year2",
+  "percent" : 11.0,
+  "cap" : true,
+  "income" : 12241.42607204023,
+  "months" : 24
+}, {
+  "@class" : "sample.Logic.YearDeposit",
+  "id" : 3,
+  "client" : "Смирнова С.С",
+  "amount" : 300000,
+  "time" : "year1",
+  "percent" : 7.5,
+  "cap" : false,
+  "income" : 22500.0
+}, {
+  "@class" : "sample.Logic.NotCapDeposit",
+  "id" : 4,
+  "client" : "Сидорова С.С",
+  "amount" : 10000,
+  "time" : "month6",
+  "percent" : 10.2,
+  "cap" : false,
+  "income" : 503.013698630137
+}, {
+  "@class" : "sample.Logic.CapDeposit",
+  "id" : 5,
+  "client" : "Попов П.П",
+  "amount" : 40000,
+  "time" : "year5",
+  "percent" : 10.5,
+  "cap" : true,
+  "income" : 27464.119273953707,
+  "months" : 60
+} ]
